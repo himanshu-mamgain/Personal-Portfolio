@@ -1,0 +1,74 @@
+@media screen and (max-width: 900px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: unset;
+    }
+
+    header h1 {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: none;
+    }
+
+    main {
+        margin: 0;
+    }
+    #about {
+        height: 100vh;
+    }
+    .about-container h1 {
+        text-align: center;
+    }
+    #projects h1, #certificates h1 {
+        font-size: 2rem;
+    }
+    .icon-container {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .project-container {
+        margin: 0;
+        flex-wrap: wrap;
+    }
+
+    .certificate-container {
+        margin-left: 10px;
+        flex-wrap: wrap;
+    }
+
+    .certificate-container img {
+        margin: 10px 0;
+        width: 200px;
+    }
+
+    .form-container {
+        margin: 0;
+        padding: 0;
+    }
+
+    input[type=text],
+    input[type=email] {
+        display: block;
+        width: 80%;
+        margin: 15px auto;
+    }
+
+    textarea {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    ::-webkit-scrollbar {
+        width: 25px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #FFB400;
+        border-radius: 100px; 
+    }
+
+}
