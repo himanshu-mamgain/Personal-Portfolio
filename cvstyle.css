@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #FFB400;
+    font-size: 3rem;
+    padding: 10px 20px;
+    text-align: justify;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-right: 20px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #FFB400;
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#about {
+    height: 100vh;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.about-container h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.about-container p {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.icon-container {
+    flex-direction: row;
+}
+
+.icon-container i {
+    margin: 20px;
+    padding: 20px;
+    font-size: 1.5rem;
+    color: #FFB400;
+    border: 1px solid #FFB400;
+    border-radius: 50%;
+}
+
+.icon-container i:hover {
+    background-color: #FFB400;
+    color: white;
+}
+
+#projects h1, #certificates h1 {
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 95vw;
+    height: 600;
+    margin-top: 0;
+}
+
+.project-container iframe {
+    width: 200px;
+    padding: 20px;
+    border: 5px solid #FFB400;
+    cursor: pointer;
+}
+
+.certificate-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 95vw;
+    height: 600;
+    margin-top: 0;
+}
+
+.certificate-container img {
+    width: 300px;
+    padding: 30px;
+    border: 5px solid #FFB400;
+    cursor: pointer;
+    transition: all .35s ease-in-out;
+}
+
+.certificate-container img:hover {
+    margin: 50px 60px;
+    transform: scale(1.5);
+}
+
+#contact h1 {
+    font-size: 3rem;
+    margin-top: 10%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+span {
+    color: #FFB400;
+}
+
+.form-container {
+    margin: 0 20px;
+    padding: 0 20px;
+}
+
+form {
+    padding: 40px;
+}
+
+input[type=text],
+input[type=email] {
+    background-color: black;
+    border-color: white;
+    outline: none;
+    display: inline-block;
+    margin: 0 20px 20px 20px;
+    padding: 8px 16px;
+    width: 27.4%;
+    font-size: 1.2rem;
+    color: white;
+}
+
+input[type=text]:hover,
+input[type=email]:hover,
+textarea:hover {
+    border-color: #FFB400;
+}
+
+textarea {
+    display: block;
+    margin-left: 20px;
+    width: 94.4%;
+    background-color: black;
+    font-size: 1.3rem;
+    padding: 8px 16px;
+    border-color: white;
+    color: white;
+}
+
+input[type=submit] {
+    display: block;
+    margin: 50px auto 20px auto;
+    border-radius: 30px;
+    border: none;
+    background-color: #FFB400;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px 20px;
+    transition: all 0.3s ease-in;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    color: #FFB400;
+}
+
+footer {
+    background-color: #222222;
+    padding: 20px;
+    display: block;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+hr {
+    border: none;
+    border-top: 3px solid #FFB400;
+    width: 20%;
+}
+
+/* custom scroll bar */
+/* Width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: black; 
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #FFB400;
+    border-radius: 25px; 
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #FFB400; 
+}
